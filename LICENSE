@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2025 Vivek Ranjan Sahoo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ATTRIBUTION:
+
+This project is a replica implementation of:
+
+"Driver Drowsiness Shield (DDSH): A Real-Time Driver Drowsiness Detection System"
+by Bhanja et al., Published in ROBOMECH Journal (2025)
+DOI: 10.1186/s40648-025-00307-4
+
+Dataset Attribution:
+MRL Eyes 2018 Dataset
+Source: http://mrl.cs.vsb.cz/eyedataset
+
+Framework Attribution:
+- TensorFlow/Keras: https://tensorflow.org (Apache 2.0)
+- OpenCV: https://opencv.org (Apache 2.0)
+- scikit-learn: https://scikit-learn.org (BSD 3-Clause)

@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Pytest and coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Data and models (too large for versioning)
+data/train/**/*.jpg
+data/train/**/*.jpeg
+data/train/**/*.png
+data/test/**/*.jpg
+data/test/**/*.jpeg
+data/test/**/*.png
+model/*.keras
+model/*.h5
+model/*.pth
+
+# Demo videos
+demo.mp4
+demo_output.mp4
+
+# IDE temporary files
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+Thumbs.db
+.directory
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
