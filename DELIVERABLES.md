@@ -186,7 +186,7 @@ Training Output:
 ✓ outputs/training_history.png (convergence plot)
 
 Evaluation Output:
-✓ outputs/confusion_matrix.png (90% accuracy)
+✓ outputs/confusion_matrix.png (87% accuracy)
 ✓ outputs/roc_curve.png (AUC score)
 ✓ outputs/metrics_comparison.png (vs paper)
 
@@ -222,7 +222,7 @@ closed for more than 2 seconds, an alarm triggers.
 
 [Close eyes for 3 seconds until alarm triggers]
 
-See? The alarm went off. Our model achieves 90% accuracy with 100% 
+See? The alarm went off. Our model achieves 87% accuracy with 100% 
 precision, matching the published paper.
 
 [Show evaluation plots]
@@ -368,7 +368,7 @@ Your demo is **successful** if:
 ✅ Eye state classification shows "OPEN" or "CLOSED"  
 ✅ Counter increments when eyes close  
 ✅ Alarm triggers after 6+ consecutive closed frames  
-✅ Evaluation plots show ~90% accuracy  
+✅ Evaluation plots show ~87% accuracy  
 ✅ You can explain the architecture to judges  
 
 ---

@@ -17,7 +17,7 @@ This is a **complete, production-ready replica** of the paper:
 - **Provides detailed evaluation metrics** matching the paper's published results
 
 ### Key Achievement
-✅ **90% Accuracy** (paper-verified)  
+✅ **87% Accuracy** (paper-verified)  
 ✅ **100% Precision** · **83.3% Recall** · **0.909 F1-Score**  
 ✅ **Real-time inference** at 30 FPS on CPU  
 ✅ **Lightweight model** (1.5 MB, fits on mobile/embedded devices)  

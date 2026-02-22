@@ -246,7 +246,7 @@ Must match for showcase:
 
 4. **Show Plots** (30 sec):
    - Open output images:
-     - `confusion_matrix.png` — 90% accuracy
+     - `confusion_matrix.png` — 87% accuracy
      - `roc_curve.png` — AUC score
      - `metrics_comparison.png` — Our vs Paper
 

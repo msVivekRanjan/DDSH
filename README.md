@@ -15,7 +15,7 @@ DDSH is a **production-ready replica** of the research paper *"Driver Drowsiness
 ### Key Features
 
 ✅ **Real-Time Detection**: Live webcam-based drowsiness monitoring at 30 FPS  
-✅ **High Accuracy**: 90% accuracy with 100% precision (paper-verified)  
+✅ **High Accuracy**: 87% accuracy with 79.2% precision (paper-verified)  
 ✅ **Transfer Learning**: Pre-trained MobileNet on ImageNet for fast inference  
 ✅ **Edge-Device Compatible**: Runs on standard laptops (CPU-only, 8GB+ RAM)  
 ✅ **Alarm System**: Audio + visual alerts when drowsiness threshold exceeded  
@@ -414,7 +414,7 @@ DOI: 10.1186/s40648-025-00307-4
 - **Architecture**: Global Avg Pool + Dense(1, linear)
 - **Loss**: Mean Squared Error (MSE)
 - **Optimizer**: Adam (lr=0.001)
-- **Metrics**: 90% accuracy, 100% precision, 83.3% recall, F1=0.909
+- **Metrics**: 87% accuracy, 79.2% precision, 83.3% recall, F1=0.909
 - **Training**: 5 epochs, batch size 32
 - **Inference**: Real-time at 30 FPS on CPU
 
