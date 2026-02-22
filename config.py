@@ -127,6 +127,61 @@ PAPER_TN = 4  # True Negatives (open eyes correctly detected)
 PAPER_FP = 0  # False Positives
 PAPER_FN = 1  # False Negatives
 
+# ============================================================================
+# POSE ESTIMATION — Whole-Body 2D Pose (Wei et al., 2025) configuration
+# ============================================================================
+
+# Model selection: 'mmpose', 'onnx', or 'mediapipe' (fallback order will be used)
+POSE_MODEL_TYPE = "mmpose"
+
+# Optional names / paths (use pose_models/ for downloaded weights)
+POSE_MODEL_NAME = "dwpose_l_wholebody"  # descriptive name used in logs
+POSE_ONNX_PATH = "pose_models/dw-ll_ucoco_384.onnx"
+
+# Keypoint counts per region
+BODY_KP = 17
+FACE_KP = 68
+HAND_KP = 21
+FEET_KP = 6
+
+# Adaptive Gaussian parameters (paper-inspired defaults)
+SIGMA_BASE = 2.0
+ALPHA_LOSS_WEIGHT = 23  # body weight factor (proportional to keypoints)
+BETA_LOSS_WEIGHT = 68   # face weight factor
+GAMMA_LOSS_WEIGHT = 21  # hands weight factor
+
+# Reference point indices (global keypoint indexing conventions)
+# For BODY region: left hip, right hip, nose (use COCO-style indices)
+BODY_REF_LEFT_HIP = 11
+BODY_REF_RIGHT_HIP = 12
+BODY_REF_NOSE = 0
+
+# Face reference in face subset (nose tip)
+FACE_REF_NOSE = 0
+
+# Hands reference in hand subset (wrist)
+HAND_REF_WRIST = 0
+
+# Visualization flags
+SHOW_SKELETON = True
+SHOW_HEATMAP = False
+SHOW_BBOX = True
+
+# Pose confidence threshold to consider a keypoint valid
+POSE_CONFIDENCE_THRESHOLD = 0.3
+
+# Demo pose video (used when DEMO_MODE=True)
+POSE_DEMO_VIDEO = "pose_demo.mp4"
+
+# How often to run the (expensive) pose model: 1 = every frame, 3 = every 3rd frame
+POSE_RUN_STRIDE = 1
+
+# Output files for pose module
+POSE_SKELETON_OUTPUT = "outputs/pose_skeleton.png"
+POSE_HEATMAP_OUTPUT = "outputs/pose_heatmap_comparison.png"
+POSE_KP_DISTRIBUTION = "outputs/keypoint_distribution.png"
+
+# ============================================================================
 print("""
 ╔════════════════════════════════════════════════════════════════╗
 ║       DDSH Configuration Loaded Successfully                   ║

@@ -26,3 +26,6 @@ pygame==2.5.2
 # Development & Utilities
 ipython==8.14.0
 jupyter==1.0.0
+ 
+# Whole-body pose estimation (MediaPipe Holistic)
+mediapipe==0.10.21
